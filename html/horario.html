@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Tabla de Maestros y Horario</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: sans-serif;
+            background-color: #f1f1f1;
+            background: url(../css/Imagen/imagen5.png) no-repeat center top;
+            background-size: cover;
+            margin: 0;
+            padding: 0;
+        }
+
+        #header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+        }
+
+        #header ul {
+            margin: 0;
+            padding: 0;
+            list-style-type: none;
+        }
+
+        #header ul li {
+            display: inline-block;
+            margin-right: 20px;
+        }
+
+        #header ul li a {
+            color: #fff;
+            text-decoration: none;
+            padding: 5px;
+        }
+
+        #header ul li:hover {
+            background-color: #555;
+        }
+
+        #header ul li ul {
+            display: none;
+            position: absolute;
+            background-color: #555;
+            padding: 10px;
+            z-index: 1;
+        }
+
+        #header ul li:hover ul {
+            display: block;
+        }
+
+        #main-container {
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: whitesmoke;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            opacity: 92%;
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th,
+        td {
+            padding: 10px;
+            text-align: left;
+            border-bottom: 1px solid darkblue;
+        }
+
+        th {
+            background-color: powderblue;
+        }
+
+        button {
+            display: block;
+            margin: 20px auto;
+            padding: 10px 20px;
+            font-size: 16px;
+            color: white;
+            background-color: mediumblue;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #555;
+        }
+
+        @media only screen and (max-width: 600px) {
+            #main-container {
+                margin: 20px;
+                padding: 10px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div id="header">
+        <ul>
+            <li><a href="index.html">Cerrar sesion</a></li>
+            <li>
+                <a href="#">Maestros</a>
+                <ul>
+                    <li><a href="Info.html">Wong</a></li>
+                    <li><a href="Info2.html">Eric</a></li>
+                    <li><a href="Info3.html">Miguel</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">Materias</a>
+                <ul>
+                    <li><a href="#">Base de datos</a></li>
+                    <li><a href="#">Aplicaciones Web</a></li>
+                    <li><a href="#">Calculo</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+
+    <div id="main-container">
+        <h1>APARTADO DE ASESORIAS UTS</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>Maestro</th>
+                    <th>Lunes</th>
+                    <th>Martes</th>
+                    <th>Miércoles</th>
+                    <th>Jueves</th>
+                    <th>Viernes</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Maestro Wong</td>
+                    <td>Lunes: 9am-11am</td>
+                    <td>Martes: 9am-11am</td>
+                    <td>Miércoles: 9am-11am</td>
+                    <td>Jueves: 9am-11am</td>
+                    <td>Viernes: 9am-11am</td>
+                </tr>
+            </tbody>
+        </table>
+        <button>Solicitar Asesoría</button>
+        <table>
+            <thead>
+                <tr>
+                    <th>Maestro</th>
+                    <th>Lunes</th>
+                    <th>Martes</th>
+                    <th>Miércoles</th>
+                    <th>Jueves</th>
+                    <th>Viernes</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Maestro Wong</td>
+                    <td>Lunes: 9am-11am</td>
+                    <td>Martes: 9am-11am</td>
+                    <td>Miércoles: 9am-11am</td>
+                    <td>Jueves: 9am-11am</td>
+                    <td>Viernes: 9am-11am</td>
+                </tr>
+            </tbody>
+        </table>
+        <button>Solicitar Asesoría</button>
+        <table>
+            <thead>
+                <tr>
+                    <th>Maestro</th>
+                    <th>Lunes</th>
+                    <th>Martes</th>
+                    <th>Miércoles</th>
+                    <th>Jueves</th>
+                    <th>Viernes</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Maestro Wong</td>
+                    <td>Lunes: 9am-11am</td>
+                    <td>Martes: 9am-11am</td>
+                    <td>Miércoles: 9am-11am</td>
+                    <td>Jueves: 9am-11am</td>
+                    <td>Viernes: 9am-11am</td>
+                </tr>
+            </tbody>
+        </table>
+        <button>Solicitar Asesoría</button>
+    </div>
+</body>
+
+</html>
